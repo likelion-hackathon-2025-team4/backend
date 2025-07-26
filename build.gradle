@@ -18,9 +18,19 @@ repositories {
 }
 
 dependencies {
+	// Web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// Test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// DB
+	runtimeOnly 'com.mysql:mysql-connector-j'
+
+	// Lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {

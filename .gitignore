@@ -24,7 +24,8 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-src/main/resources/*.propertiessrc/main/resources/*.yml
+src/main/resources/*.properties
+src/main/resources/*.yml
 
 ### NetBeans ###
 /nbproject/private/
